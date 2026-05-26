@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Zakaria Qassifi — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Serif+Display&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">Zakaria Qassifi.</div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-inner">
+    <span class="hero-tag">Student</span>
+    <h1>Hi, I'm <span>Zakaria Qassifi</span><br>— I build things.</h1>
+    <p>Building at the intersection of software, artificial intelligence, and design. Focused on clean and impactful digital experiences. Based in Khouribga, Morocco.</p>
+    <div class="btn-group">
+      <a href="#projects" class="btn btn-primary">View Projects</a>
+      <a href="#contact" class="btn btn-outline">Get in Touch</a>
+    </div>
+    <div class="hero-socials">
+      <a href="https://github.com/ZakariaQassifi" target="_blank" class="hero-social" title="GitHub">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+      </a>
+      <a href="https://www.linkedin.com/in/zakaria-qassifi-87874b286/" target="_blank" class="hero-social" title="LinkedIn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="reveal">
+    <p class="section-label">About Me</p>
+    <h2 class="section-title">Who I am</h2>
+  </div>
+  <div class="about-grid reveal">
+    <div class="about-text">
+      <p>II'm a passionate developer with a strong interest in artificial intelligence and thoughtful design. I enjoy turning complex problems into simple, intelligent, and elegant solutions. Currently, I’m pursuing a degree in Computer Engineering and Artificial Intelligence at the Faculty of Multidisciplinary Khouribga.</p>
+      <p>Outside of coding, I'm constantly exploring new tech, learning about AI, and building personal projects that challenge me to level up.</p>
+      <div class="skills-list">
+        <span class="skill-tag">HTML / CSS</span>
+        <span class="skill-tag">JavaScript</span>
+        <span class="skill-tag">C++</span>
+        <span class="skill-tag">C</span>
+        <span class="skill-tag">Python</span>
+        <span class="skill-tag">Design</span>
+      </div>
+    </div>
+    <!-- Stats 
+    <div class="about-stats">
+      <div class="stat-box"><div class="stat-number">5+</div><div class="stat-label">Projects Completed</div></div>
+      <div class="stat-box"><div class="stat-number">2+</div><div class="stat-label">Years Experience</div></div>
+      <div class="stat-box"><div class="stat-number">10+</div><div class="stat-label">Technologies</div></div>
+      <div class="stat-box"><div class="stat-number">∞</div><div class="stat-label">Curiosity</div></div>
+    </div>
+    -->
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="reveal">
+    <p class="section-label">My Work</p>
+    <h2 class="section-title">Projects</h2>
+    <p class="section-sub">Click any project to see its details and reports.</p>
+  </div>
+  <div class="projects-grid reveal">
+
+    <!-- C++ Project -->
+    <div class="project-card" onclick="openModal('cpp')">
+     <div class="card-thumb">
+  <svg viewBox="0 0 128 128" width="72" height="72" style="position:relative;z-index:1">
+    <path fill="#00599C" d="M117.5 33.5l.3-.2c-.6-1-1.5-1.8-2.5-2.3L67.1 2.9c-.8-.5-1.7-.7-2.6-.7-.9 0-1.8.2-2.6.7L13.7 31c-1.6.9-2.6 2.6-2.6 4.4v56.4c0 1.8 1 3.5 2.6 4.4l48.2 27.8c.8.5 1.7.7 2.6.7.9 0 1.8-.2 2.6-.7l48.2-27.8c1.6-.9 2.6-2.6 2.6-4.4V35.4c0-.7-.2-1.4-.4-1.9z"/>
+    <path fill="#004482" d="M64.4 87.5C49.7 87.5 37.8 75.6 37.8 61S49.7 34.5 64.4 34.5c8.6 0 16.6 4.2 21.5 11.3l-10.5 6.1c-2.8-4.1-7.4-6.6-12.4-6.5-8.1.1-14.6 6.8-14.5 14.9.1 8 6.6 14.5 14.6 14.5 5.1 0 9.8-2.6 12.6-6.8l10.6 6c-5 7.1-13.1 11.5-21.9 11.5z"/>
+    <path fill="#fff" d="M89.3 66.1H85v4.4h-4.4v-4.4h-4.4v-4.4h4.4v-4.4H85v4.4h4.4v4.4zm14.5 0h-4.4v4.4h-4.4v-4.4h-4.4v-4.4h4.4v-4.4h4.4v4.4h4.4v4.4z"/>
+  </svg>
+  <div class="thumb-overlay">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+          <span>Open Project</span>
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="card-tags"><span class="card-tag">C++</span><span class="card-tag">Qt</span></div>
+        <div class="card-title">Programmation Objet — C++</div>
+        <p class="card-desc">TD/TP reports and an AI project: Intelligent Planning Assistant focused on smart task organization.</p>
+        <div class="card-links">
+          <button class="card-link" onclick="event.stopPropagation(); openModal('cpp','reports')">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+            View Reports
+          </button>
+          <a href="https://github.com/ZakariaQassifi" target="_blank" class="card-link" onclick="event.stopPropagation()">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+            GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Add more project cards here -->
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="reveal">
+    <p class="section-label">Let's Talk</p>
+    <h2 class="section-title">Get in Touch</h2>
+    <p class="section-sub">Have a project in mind or just want to say hi? I'd love to hear from you.</p>
+  </div>
+  <form class="contact-form reveal" onsubmit="handleSubmit(event)">
+    <div class="form-group"><label>First Name</label><input type="text" placeholder="first name" /></div>
+    <div class="form-group"><label>Last Name</label><input type="text" placeholder="last name" /></div>
+    <div class="form-group full"><label>Email</label><input type="email" placeholder="zakariaqassifi10@gmail.com" /></div>
+    <div class="form-group full"><label>Message</label><textarea placeholder="Tell me about your project…"></textarea></div>
+    <div class="full"><button type="submit" class="btn btn-primary" style="width:100%">Send Message</button></div>
+  </form>
+  <div class="contact-links reveal">
+    <a href="mailto:zakariaqassifi10@gmail.com" class="social-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      zakariaqassifi10@gmail.com
+    </a>
+    <a href="https://github.com/ZakariaQassifi" target="_blank" class="social-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+      GitHub
+    </a>
+    <a href="https://www.linkedin.com/in/zakaria-qassifi-87874b286/" target="_blank" class="social-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+      LinkedIn
+    </a>
+  </div>
+</section>
+
+<footer>Built with care by <span>Zakaria Qassifi</span> · 2023</footer>
+
+<!-- MODAL -->
+<div class="modal-backdrop" id="modalBackdrop" onclick="handleBackdropClick(event)">
+  <div class="modal" id="modal">
+    <div class="modal-header">
+      <div class="modal-header-left">
+        <div class="modal-icon" id="modalIcon">📁</div>
+        <div>
+          <div class="modal-title" id="modalTitle">Project</div>
+          <div class="modal-subtitle" id="modalSubtitle"></div>
+        </div>
+      </div>
+      <button class="modal-close" onclick="closeModal()">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+    <div class="modal-tabs">
+      <button class="modal-tab active" data-tab="overview" onclick="switchTab('overview')">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+        Overview
+      </button>
+      <button class="modal-tab" data-tab="reports" onclick="switchTab('reports')">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+        Reports(PDFs)
+      </button>
+    </div>
+    <div class="modal-body">
+      <div class="tab-panel active" id="tab-overview">
+        <div class="overview-panel">
+          <h3 id="ov-title"></h3>
+          <p id="ov-desc"></p>
+          <div class="overview-tags" id="ov-tags"></div>
+          <div class="overview-links" id="ov-links"></div>
+        </div>
+      </div>
+      <div class="tab-panel" id="tab-reports">
+        <div class="pdf-toolbar" id="pdfToolbar">
+          <span class="pdf-toolbar-label">Select report:</span>
+        </div>
+        <div class="pdf-viewer-wrap">
+          <div class="pdf-empty" id="pdfEmpty">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+            <p id="pdfEmptyMsg">Select a report above to view it here.</p>
+          </div>
+          <div class="pdf-card" id="pdfCard" style="display:none">
+            <div class="pdf-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+            </div>
+            <div class="pdf-card-name" id="pdfCardName">Document</div>
+            <p class="pdf-card-hint">PDFs open in a new tab.</p>
+            <a class="pdf-open-btn" id="pdfOpenBtn" href="#" target="_blank">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              Open PDF
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
