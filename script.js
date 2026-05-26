@@ -4,7 +4,7 @@
 const PROJECTS = {
   cpp: {
     icon: "C++",
-    title: "Programmation Objet — C++ par Pr.i.Bakkouri",
+    title: "Programmation Objet — C++ (Pr.i.Bakkouri)",
     subtitle: "C++ · Qt · Artificial Intelligence",
     overview: {
       heading: "About this project",
