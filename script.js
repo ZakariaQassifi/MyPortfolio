@@ -16,7 +16,6 @@ const PROJECTS = {
       { label: "Rapport de TD", url: "https://drive.google.com/file/d/1KMqZlRYrj1q-N9IYvZK58EQfQnZs9z5v/view?usp=sharing" },
       { label: "TP1 ", url: "https://drive.google.com/file/d/1hFuqoYmpJvZJj-ZxCT_NFyCZI9GFUmqo/view?usp=sharing" },
        { label: "TP2 ", url: "https://drive.google.com/file/d/154LH_vNg2TvWLVdiAzWIw3Eki_1GLHcw/view?usp=drive_link" },
-       { label: "TP3 ", url: "https://drive.google.com/file/d/1wyDbxFoKZbkjpqYbj2NTnSB4ZVtPYO3V/view?usp=drive_link" },
       // { label: "projet", url: "" },
     ]
   },
