@@ -17,6 +17,13 @@ const PROJECTS = {
       { label: "TP1 ", url: "https://drive.google.com/file/d/1hFuqoYmpJvZJj-ZxCT_NFyCZI9GFUmqo/view?usp=sharing" },
       { label: "TP2 ", url: "https://drive.google.com/file/d/154LH_vNg2TvWLVdiAzWIw3Eki_1GLHcw/view?usp=drive_link" },
       { label: "TP3 ", url: "https://drive.google.com/file/d/1wyDbxFoKZbkjpqYbj2NTnSB4ZVtPYO3V/view?usp=sharing" },
+      { label: "TP4 ", url: "https://drive.google.com/file/d/1aQ5e5MKzykym1yy7lkBHqcqjlGS_Dj96/view?usp=drive_link" },
+      { label: "TP5 ", url: "https://drive.google.com/file/d/1MVxm0rbfGFa7m8Pl0JMb9-_BfsmqLXTx/view?usp=drive_link" },
+      { label: "TP6 ", url: "https://drive.google.com/file/d/1z8VyUjixyB9ykyN48gtmiUnvh9mr0KZf/view?usp=drive_link" },
+      { label: "TP7 ", url: "https://drive.google.com/file/d/1OS0xtNCMbEjuevkgV6Y43o5VrQavQ1zK/view?usp=drive_link" },
+      { label: "TP8 ", url: "https://drive.google.com/file/d/1lT9xsIayEO6oFHXzThAL7pYDW6upO0_R/view?usp=drive_link" },
+      { label: "TP9 ", url: "https://drive.google.com/file/d/1X8FoOBsCNc3EaZqQhQXWPw88bkRZtZg2/view?usp=drive_link" },
+      { label: "PROJET ", url: "https://drive.google.com/file/d/1X8FoOBsCNc3EaZqQhQXWPw88bkRZtZg2/view?usp=drive_link" },
       // { label: "projet", url: "" },
     ]
   },
