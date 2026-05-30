@@ -23,7 +23,7 @@ const PROJECTS = {
       { label: "TP7 ", url: "https://drive.google.com/file/d/1OS0xtNCMbEjuevkgV6Y43o5VrQavQ1zK/view?usp=drive_link" },
       { label: "TP8 ", url: "https://drive.google.com/file/d/1lT9xsIayEO6oFHXzThAL7pYDW6upO0_R/view?usp=drive_link" },
       { label: "TP9 ", url: "https://drive.google.com/file/d/1X8FoOBsCNc3EaZqQhQXWPw88bkRZtZg2/view?usp=drive_link" },
-      { label: "PROJET ", url: "https://drive.google.com/file/d/1X8FoOBsCNc3EaZqQhQXWPw88bkRZtZg2/view?usp=drive_link" },
+      { label: "PROJET ", url: "https://drive.google.com/file/d/1SkrCvfJ1-R_52Id-tyZL0hXN7bSVRd5z/view?usp=drive_link" },
       // { label: "projet", url: "" },
     ]
   },
