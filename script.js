@@ -28,23 +28,21 @@ const PROJECTS = {
     ]
   },
 
-  // ADD MORE PROJECTS HERE 
-  // web: {
-  //   icon: "🌐",
-  //   title: "competetion projet",
-  //   subtitle: "HTML · CSS · JavaScript",
-  //   overview: {
-  //     heading: "About this project",
-  //     desc: "Description of project.",
-  //     tags: ["HTML", "CSS", "JavaScript"],
-  //     github: "https://github.com/ZakariaQassifi/repo",
-  //     demo: "https://your-demo-link.com"
-  //   },
-  //   pdfs: [
-  //     { label: "Report", url: "https://drive.google.com/file/d/YOUR_ID/view?usp=sharing" },
-  //   ]
-  // },
-  // ────────────────────────────────────────────────────────────
+  web: {
+    icon: "🌐",
+    title: "Web Development 2<br> (Pr. H.EL HAMDAOUI)",
+    subtitle: "HTML · CSS · JavaScript · Responsive",
+    overview: {
+      heading: "Web Portfolio & Platforms",
+      desc: "This section contains my web development projects, ranging from functional interactive platforms to responsive professional landing pages integrated with modern web features.",
+      tags: ["HTML", "CSS", "JavaScript", "UI/UX"],
+      github: "https://github.com/ZakariaQassifi",
+      demo: "https://zakariaqassifi.github.io/my-To-Do-List/"
+    },
+    /* CRITICAL PLACEHOLDER: Replace 'https://example.com' with your production project URL later 
+    */
+    websiteUrl: "https://zakariaqassifi.github.io/my-To-Do-List/"
+  }
 };
 
 //Modal state
